@@ -1,7 +1,7 @@
 @echo off
 
 :: variables
-set backupdirpath\git_backup\
+set backupdirpath=c:\git_backup\
 set newfolder=%date:~6,4%%date:~0,2%%date:~3,2%
 set backupcmd=git clone http://localhost:8888/some-repo.git
 set gitpull=git pull --all
